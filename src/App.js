@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./components/Footer";
 import Die from "./components/Die";
 import { nanoid } from "nanoid";
 import ReactConfetti from "react-confetti";
@@ -198,7 +197,6 @@ export default function App() {
 
         <Scoreboard bestRolls={bestRolls} bestTime={bestTime} />
       </main>
-      <Footer />
     </div>
   );
 }
